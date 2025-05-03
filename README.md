@@ -60,10 +60,3 @@ React.js → Para la estructura y renderizado de la interfaz.
 WeatherAPI → Para obtener los datos meteorológicos.
 
 CSS → Para el diseño moderno y fondos dinámicos.
-
-📜 Licencia
-Este proyecto es de código abierto bajo la MIT License.
-
-📌 ¡Disfruta del clima en tiempo real con WeatherApp! 🌎☀️🌧
-
-Este README refleja toda la funcionalidad de tu aplicación de manera clara y profesional. Puedes modificarlo según sea necesario o agregar imágenes para hacerlo aún más visual. ¡Tu app de clima se verá increíble! 🚀✨
