@@ -22,7 +22,7 @@ Características principales:
 
 1️⃣ Clonar el repositorio
 bash
-git clone https://github.com/tuusuario/weather-app.git
+git clone https://github.com/CristhianZ2022/app-para-ver-clima
 cd weather-app
 
 2️⃣ Instalar dependencias
