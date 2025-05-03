@@ -1,0 +1,140 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.img-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.climates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #3498db, #2c3e50); /* Gradiente moderno */
+  color: white;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+.img-icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid white; /* Resalta la imagen */
+}
+
+.city {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.region, .country, .latd, .long, .localtime {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.grades {
+  font-size: 20px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+
+.climates-footer {
+  display: flex;
+  gap: 20px; /* Espaciado entre elementos */
+  padding: 10px; /* Espaciado interno opcional */
+  width: 100%; /* Ocupa el mismo ancho que el main */
+  overflow: hidden; /* Oculta desbordamiento */
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* Transición suave al deslizar */
+  transform-style: preserve-3d; /* Evita que el elemento se desplace */
+  width: max-content;
+}
+
+.carousel-track-wrapper {
+  white-space: nowrap; /* Evita que los elementos se apilen en varias líneas */
+  width: 100%;
+}
+
+.climates-footer-items {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px; /* Ancho fijo para cada item */
+  flex: 0 0 auto; /* Evita que crezcan o se reduzcan */
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-size: cover; /* La imagen cubre todo el área del div */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+}
+
+.climates-footer-items img, .climates-footer-items h4, .climates-footer-items p {
+  color: #000000;
+  text-wrap: wrap;
+}
+
+.carousel-button {
+  position: relative;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-button.prev {
+  left: 10px;
+  top: 50%;
+}
+
+.carousel-button.next {
+  right: -95%;
+  bottom: 38%;
+}
